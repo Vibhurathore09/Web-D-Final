@@ -15,7 +15,7 @@ const io = socketio(server);
 const Chat = require("./models/chat");
 
 mongoose
-  .connect("mongodb://0.0.0.0:27017/twitter-clone", {
+  .connect("mongodb+srv://vibhurathoreshic:vibhurathoreshic@cluster0.pkgcw0i.mongodb.net/", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
